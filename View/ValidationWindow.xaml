@@ -25,7 +25,8 @@
             <Button Content="Отправить результат теста"
                     Width="300"
                     Height="40"
-                    Margin="40"/>
+                    Margin="40"
+                    Click="Send_Result_Button_Click"/>
         </StackPanel>
         <StackPanel Grid.Column="1"
                     VerticalAlignment="Center">
